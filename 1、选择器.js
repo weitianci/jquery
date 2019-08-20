@@ -4,7 +4,7 @@
         // 查找所有元素
 
     // 2、#foo\\[bar\\]
-        // 查找含有特殊字符的元素
+        // 查找含有特殊字符的元素,在特殊字符左边加\\
         // HTML 代码：<span id="foo[bar]"></span>
         // jQuery 代码：#foo\\[bar\\]
         // 结果[ <span id="foo[bar]"></span>]
